@@ -15,6 +15,7 @@ def assign_rooms(array)
   array.each_with_index do |name,i|
     newarray[i]= "Hello, #{name}! You'll be assigned to room #{i+1}!"
   end
+  newarray
 end
 def printer(name)
   batch_badge_creator.map do |message|
