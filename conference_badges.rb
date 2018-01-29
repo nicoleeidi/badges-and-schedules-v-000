@@ -15,7 +15,7 @@ def assign_rooms(array)
     "Hello, #{name}! You'll be assigned to room #{i+1}!"
   end
 end
-def printer
+def printer(name)
   batch_badge_creator.each do |message|
     puts message
   end
