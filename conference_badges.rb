@@ -18,7 +18,7 @@ def assign_rooms(array)
   newarray
 end
 def printer(name)
-  batch_badge_creator.map do |message|
+  batch_badge_creator(array).map do |message|
     puts message
   end
   assign_rooms.each do |message|
